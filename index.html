@@ -12,28 +12,35 @@
 </head>
 
 <body>
-    <header class="h-16  text-white">
-        <nav class="flex justify-between items-center px-12 py-5">
-            <div>
+
+    <section class="relative h-screen flex items-center justify-center">
+        <div class="absolute top-0 left-0 w-full h-full bg-cover bg-center bg-no-repeat" style="background-image: url('./images/bgimage.avif');">
+            <span class="absolute top-0 left-0 w-full h-full opacity-75 bg-black"></span>
+        </div>
+        <nav class="absolute top-0 left-0 w-full px-6 py-4 text-white">
+            <div class="container mx-auto flex justify-between items-center">
                 <h1 class="text-lg font-bold">THE NOVEMBER ROOM</h1>
-            </div>
-            <div class="right-nav">
-                <ul class="flex space-x-6">
-                    <li><i class="fa-brands fa-facebook text-orange"></i></li>
-                    <li><i class="fa-brands fa-square-twitter text-orange"></i></li>
-                    <li><i class="fa-brands fa-linkedin text-orange"></i></li>
+                <ul class="flex space-x-4">
+                    <li><i class="fa-brands fa-facebook text-orange-500"></i></li>
+                    <li><i class="fa-brands fa-square-twitter text-orange-500"></i></li>
+                    <li><i class="fa-brands fa-linkedin text-orange-500"></i></li>
                 </ul>
             </div>
         </nav>
-    </header>
-    
-    <section class="absolute top-0 w-full h-full bg-top bg-cover" style="background-image: url('./images/bgimage.avif');">
-        <div class="w-full h-full absolute opacity-50 bg-black"></div>
+        <div class="container mx-auto relative z-10">
+            <div class="text-center text-white">
+                <h1 class="text-4xl font-bold">Feel the <span class="text-orange-500">Power</span></h1>
+                <p class="text-center mt-4">
+                    Welcome to The November Room. We are a fitness and training center that focuses on<br>
+                     pushing you to your absolute limit. Download our complete brochure to get started today!
+                </p>
+                <button class="mt-8 px-6 py-3 bg-orange-500 text-white font-semibold rounded-md">Download Brochure</button>
+            </div>
+        </div>
     </section>
     
     
-    
-
+        
 
     <Section></Section>
     <Section></Section>
